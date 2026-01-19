@@ -21,7 +21,7 @@
 ## 🎬 Demo
 
 <p align="center">
-  <img src="https://via.placeholder.com/600x300?text=Gameplay+GIF" alt="Gameplay GIF"/>
+  <img src="demo.gif" alt="Gameplay" width="360" height="640"/>
 </p>
 
 ---
@@ -58,31 +58,23 @@ Each vehicle comes with unique stats, handling characteristics, and special abil
 ### 📈 Dynamic Difficulty
 Roads progress from **Easy** → **Normal** → **Hard** as you advance
 
-### 🎯 Game Modes
-- **Race Mode** - Pure speed challenge
-- **Police Chase** - Escape the cops
-- **Delivery Mode** - Maximize your deliveries
-
 ### 🛤️ Road Variants
-- 2-Lane layouts for tight maneuvering
-- 3-Lane layouts for more strategic play
+- 2-Lane layouts
+- 3-Lane layouts
 
 ---
 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://via.placeholder.com/250x450?text=Main+Menu" alt="Main Menu" width="200"/>
-  <img src="https://via.placeholder.com/250x450?text=Gameplay+1" alt="Gameplay 1" width="200"/>
-  <img src="https://via.placeholder.com/250x450?text=Gameplay+2" alt="Gameplay 2" width="200"/>
-  <img src="https://via.placeholder.com/250x450?text=Car+Select" alt="Car Select" width="200"/>
+  <img src="https://github.com/user-attachments/assets/7a2c7385-c283-4622-a98c-615e321f1269" alt="menu" width="200"/>
+  <img src="https://github.com/user-attachments/assets/a73b57fe-7863-4dcb-96e4-84dfd85b4929" alt="garage" width="200"/>
+  <img src="https://github.com/user-attachments/assets/04d56f72-8288-4330-8c92-f870e162d0a5" alt="driving" width="200"/>
 </p>
-
 <p align="center">
-  <img src="https://via.placeholder.com/250x450?text=Upgrade+Shop" alt="Upgrade Shop" width="200"/>
-  <img src="https://via.placeholder.com/250x450?text=Game+Over" alt="Game Over" width="200"/>
-  <img src="https://via.placeholder.com/250x450?text=Delivery+Mode" alt="Delivery Mode" width="200"/>
-  <img src="https://via.placeholder.com/250x450?text=Police+Chase" alt="Police Chase" width="200"/>
+  <img src="https://github.com/user-attachments/assets/26b3616d-de5e-49c4-be6a-f8e1b12c09f8" alt="deathscreen" width="200"/>
+  <img src="https://github.com/user-attachments/assets/2fefea88-808a-4f6c-9a3a-4760b6e166fa" alt="jumpingcar" width="200"/>
+  <img src="https://github.com/user-attachments/assets/1e6bc854-33a7-474d-b3c1-7d84fd7866c4" alt="bathtubbuy" width="200"/>
 </p>
 
 ---
@@ -112,33 +104,8 @@ Roads progress from **Easy** → **Normal** → **Hard** as you advance
 |-------|--------|
 | ← Swipe Left | Steer left |
 | → Swipe Right | Steer right |
-| 🔘 Skill Button | Activate special ability |
+| 🔘 Double Tap | Activate special ability |
 | 🚗 Auto | Progressive speed increase |
-
----
-
-## 🏗️ Project Structure
-
-```
-Assets/
-├── Scripts/
-│   ├── Car/              # Vehicle controllers & stats
-│   ├── Road/             # Procedural generation
-│   ├── Hazards/          # Obstacles & enemies
-│   ├── Delivery/         # Package & post office logic
-│   ├── Skills/           # Special abilities
-│   ├── UI/               # Menus & HUD
-│   └── Managers/         # Game state & systems
-├── Prefabs/
-│   ├── Cars/
-│   ├── Roads/
-│   └── Obstacles/
-├── ScriptableObjects/
-│   ├── CarConfigs/
-│   ├── RoadConfigs/
-│   └── UpgradeConfigs/
-└── Scenes/
-```
 
 ---
 
@@ -159,63 +126,23 @@ Assets/
       </a>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/80?text=👤" width="80px;" alt="egemenasim"/><br />
+      <img src="https://github.com/egemenasim.png" width="80px;" alt="Egemen Asim Ersoy"/><br />
       <sub><b>egemenasim</b></sub>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/80?text=👤" width="80px;" alt="Sadoran45"/><br />
+      <img src="https://github.com/Sadoran45.png" width="80px;" alt="Yusuf Sadi Pesen"/><br />
       <sub><b>Sadoran45</b></sub>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/80?text=👤" width="80px;" alt="Reyhan Sena Çimen"/><br />
-      <sub><b>Reyhan Sena Çimen</b></sub>
+      <img src="https://github.com/ReyhanCimen.png" width="80px;" alt="Reyhan Sena Çimen"/><br />
+      <sub><b>ReyhanCimen</b></sub>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/80?text=👤" width="80px;" alt="Sarper Sakmak"/><br />
-      <sub><b>Sarper Sakmak</b></sub>
+      <img src="https://github.com/sarpersakmak.png" width="80px;" alt="Sarper Sakmak"/><br />
+      <sub><b>sarpersakmak</b></sub>
     </td>
   </tr>
 </table>
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Unity 2022.3 LTS or later
-- Android/iOS build support modules
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/revkae/CrrrazzyCar-Go.git
-
-# Open in Unity Hub
-# Select the project folder and open with Unity 2022.3+
-```
-
-### Build
-
-1. Open **File → Build Settings**
-2. Select target platform (Android/iOS)
-3. Click **Build and Run**
-
----
-
-## 🎯 Roadmap
-
-- [ ] Online leaderboards
-- [ ] Daily challenges
-- [ ] New car models
-- [ ] Weather effects
-- [ ] Multiplayer mode
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -224,7 +151,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </p>
 
 <p align="center">
-  <a href="https://revkae.itch.io/">
+  <a href="https://sadoran45.itch.io/crrrazy-car-go">
     <img src="https://img.shields.io/badge/Play_on_Itch.io-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Play on Itch.io"/>
   </a>
 </p>
